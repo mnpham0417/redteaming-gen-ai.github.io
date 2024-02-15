@@ -1086,12 +1086,25 @@ body
     text-overflow: ellipsis;
 }
 
+.navbar-header {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-toggle {
+    margin-right: 0;
+}
+
 @media (max-width: 767px) {
     .workshop-title {
-        display: block;
-        width: 100%;
-        text-align: center;
+        display: inline-block;
+        width: auto;
+        text-align: left;
         font-size: 14px; /* Adjust the font size for smaller screens */
+    }
+
+    .navbar-header {
+        flex-wrap: wrap;
     }
 
     .navbar-collapse {
