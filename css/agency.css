@@ -1130,4 +1130,7 @@ body
         padding-top: 120px; /* Adjust for smaller screens if navbar height changes */
         margin-top: -120px;
     }
+	.workshop-title {
+        margin-top: -10px; /* Adjust this value to move the title up */
+    }
 }
