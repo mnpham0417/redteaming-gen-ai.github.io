@@ -1086,21 +1086,15 @@ body
     text-overflow: ellipsis;
 }
 
-/* .navbar-header {
+.navbar-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-} */
-
-.navbar-header .navbar-brand {
-	display: none;
 }
 
 .navbar-toggle {
     margin-right: 0;
 }
-
-
 
 /* Add this to your existing CSS */
 
@@ -1110,9 +1104,12 @@ body
 }
 
 @media (max-width: 767px) {
+    .navbar-header .navbar-brand {
+        display: none;
+    }
     .section {
         padding-top: 120px; /* Adjust for smaller screens if navbar height changes */
         margin-top: -120px;
     }
-	
+    /* Add any other styles you want to apply specifically for mobile devices */
 }
