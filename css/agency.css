@@ -1086,10 +1086,14 @@ body
     text-overflow: ellipsis;
 }
 
-.navbar-header {
+/* .navbar-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+} */
+
+.navbar-header .navbar-brand {
+	display: none;
 }
 
 .navbar-toggle {
@@ -1110,7 +1114,5 @@ body
         padding-top: 120px; /* Adjust for smaller screens if navbar height changes */
         margin-top: -120px;
     }
-	.navbar-header .navbar-brand {
-        display: none;
-    }
+	
 }
