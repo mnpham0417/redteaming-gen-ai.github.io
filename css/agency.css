@@ -1096,27 +1096,7 @@ body
     margin-right: 0;
 }
 
-@media (max-width: 767px) {
-    .workshop-title {
-        display: block;
-        width: 100%;
-        text-align: center;
-        font-size: 14px; /* Adjust the font size for smaller screens */
-    }
 
-    .navbar-header {
-        flex-direction: row;
-        justify-content: flex-start;
-    }
-
-    .navbar-toggle {
-        margin-left: auto;
-    }
-
-    .navbar-collapse {
-        margin-top: 10px; /* Add some space between the title and the menu items */
-    }
-}
 
 /* Add this to your existing CSS */
 
