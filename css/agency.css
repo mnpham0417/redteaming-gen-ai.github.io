@@ -1121,6 +1121,13 @@ body
 /* Add this to your existing CSS */
 
 .section {
-    padding-top: 120px; /* Adjust this value based on the height of your navbar */
-    margin-top: -120px; /* Should be the same as padding-top but negative */
+    padding-top: 100px;
+    margin-top: -100px;
+}
+
+@media (max-width: 767px) {
+    .section {
+        padding-top: 120px; /* Adjust for smaller screens if navbar height changes */
+        margin-top: -120px;
+    }
 }
