@@ -1117,3 +1117,10 @@ body
         margin-top: 10px; /* Add some space between the title and the menu items */
     }
 }
+
+/* Add this to your existing CSS */
+
+.section {
+    padding-top: 70px; /* Adjust this value based on the height of your navbar */
+    margin-top: -70px; /* Should be the same as padding-top but negative */
+}
