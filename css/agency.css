@@ -1065,3 +1065,36 @@ body
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #fec503;}
+
+.navbar {
+    background-color: black;
+    color: white;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar a:hover, .navbar a:focus {
+    color: #ccc;
+}
+
+.workshop-title {
+    font-size: 16px; /* Adjust the font size as needed */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media (max-width: 767px) {
+    .workshop-title {
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-size: 14px; /* Adjust the font size for smaller screens */
+    }
+
+    .navbar-collapse {
+        margin-top: 10px; /* Add some space between the title and the menu items */
+    }
+}
